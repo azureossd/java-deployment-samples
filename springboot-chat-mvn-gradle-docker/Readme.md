@@ -8,7 +8,7 @@
 
 ```bash
 cd spring-boot-websocket-chat-demo
-mvnw package
+./mvnw package
 ```
 
 **3. Run the application**
@@ -19,7 +19,7 @@ java -jar target/websocket-demo-0.0.1-SNAPSHOT.jar
 Alternatively, you can run the app directly without packaging
 
 ```bash
-mvnw spring-boot:run
+./mvnw spring-boot:run
 ```
 ## Building with Gradle
 
@@ -31,7 +31,7 @@ mvnw spring-boot:run
 
 ```bash
 cd spring-boot-websocket-chat-demo
-gradlew assemble
+./gradlew assemble
 ```
 
 **3. Run the application**
@@ -41,7 +41,7 @@ java -jar build/libs/websocket-demo-0.0.1-SNAPSHOT.jar
 Alternatively, you can run the app directly without packaging
 
 ```bash
-gradlew bootRun
+./gradlew bootRun
 ```
 ## Deploying with Docker
 **1. Update the Dockerfile with the proper .jar target path for Gradle OR Maven**
