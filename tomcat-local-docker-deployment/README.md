@@ -2,7 +2,7 @@
 ### Pre-requisites
 * [VS Code Java Coding Pack](https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java)
 ### Testing the .war Locally
-1. Install the [Remote Server Protocol UI](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-rsp-ui) VS Code Plugin.
+1. Install the [Community Server Connectors](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-community-server-connector) VS Code Plugin.
 
 2. A tab named **Servers** should now appear in VSCode (on the bottom left-hand side). Click the icon to **Create a new server**. 
 
