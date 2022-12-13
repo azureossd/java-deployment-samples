@@ -7,7 +7,7 @@
 **2. Build the app using the Maven wrapper**
 
 ```bash
-cd spring-boot-websocket-chat-demo
+cd springboot-chat-mvn-gradle-docker
 ./mvnw package
 ```
 
