@@ -10,7 +10,8 @@ ARG JAR_FILE=target/websocket-demo-0.0.1-SNAPSHOT.jar
 # Copy the application's jar to the container
 COPY ${JAR_FILE} websocket-demo.jar
 
-# Make port 8080 available to the world outside this container
+# Make port 8080 available to the world outside
+# This is also what Tomcat is listening on
 EXPOSE 8080
 
 # Run the jar file 
