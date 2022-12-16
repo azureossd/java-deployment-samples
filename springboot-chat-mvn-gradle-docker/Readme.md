@@ -30,7 +30,7 @@ Alternatively, you can run the app directly without packaging
 **2. Build and run the app using Gradle**
 
 ```bash
-cd spring-boot-websocket-chat-demo
+cd springboot-chat-mvn-gradle-docker
 ./gradlew assemble
 ```
 
@@ -45,11 +45,14 @@ Alternatively, you can run the app directly without packaging
 ```
 ## Deploying with Docker
 **1. Update the Dockerfile with the proper .jar target path for Gradle OR Maven**
+
+**2. Uncomment the line that corresponds to whichever tool you decided to build with. Double check that the `.jar` is located under said directory in your project.**
+
 ```docker
 # Application Jar Target path for Maven OR Gradle 
 
 #Maven Path
-ARG JAR_FILE=target/websocket-demo-0.0.1-SNAPSHOT.jar
+# ARG JAR_FILE=target/websocket-demo-0.0.1-SNAPSHOT.jar
 
 #Gradle Path
 ARG JAR_FILE=build/libs/websocket-demo-0.0.1-SNAPSHOT.jar
@@ -57,9 +60,9 @@ ARG JAR_FILE=build/libs/websocket-demo-0.0.1-SNAPSHOT.jar
 ```
 **2. Build the Docker Image**
 ```docker
-Docker build -t springwebsocketdemo:01 .
+docker build -t springwebsocketdemo:01 .
 ```
 **3. Run the Image**
 ```
-docker run -d -p 8081:8080 springwebsocketdemo:01
+docker run -d -p 8080:8080 springwebsocketdemo:01
 ```

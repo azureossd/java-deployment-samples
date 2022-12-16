@@ -53,3 +53,5 @@
 
 1. Once the container is running, navigate to `http://localhost:8080`
 
+> **NOTE**: If you get an error about an already bound port to 8080, make sure that your previous Tomcat server through **Community Server Connector is stopped.**
+
