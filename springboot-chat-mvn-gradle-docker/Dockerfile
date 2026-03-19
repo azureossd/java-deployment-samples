@@ -1,5 +1,5 @@
 # Java runtime base image
-FROM openjdk:11-jdk
+FROM openjdk:22-jdk
 
 WORKDIR /app
 
