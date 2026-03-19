@@ -17,11 +17,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-websocket:2.2.1.RELEASE'
-    implementation 'org.springframework.boot:spring-boot-starter-amqp:2.2.1.RELEASE'
-    implementation 'org.springframework.boot:spring-boot-starter-reactor-netty:2.2.1.RELEASE'
-    runtimeOnly 'org.springframework.boot:spring-boot-devtools:2.2.1.RELEASE'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.2.1.RELEASE'
+    implementation 'org.springframework.boot:spring-boot-starter-websocket:4.0.4'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp:4.0.4'
+    implementation 'org.springframework.boot:spring-boot-starter-reactor-netty:4.0.4'
+    runtimeOnly 'org.springframework.boot:spring-boot-devtools:4.0.4'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:4.0.4'
 }
 
 group = 'com.example'
