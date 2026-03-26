@@ -1,6 +1,6 @@
 # Pull an image using Tomcat 9.0.70, with a Eclipse Temurin JDK 17 version
 # Using jammy (Ubuntu's codename for Ubuntu 22)
-FROM tomcat:11.0.18-jdk17-temurin-jammy
+FROM tomcat:11.0.20-jdk17-temurin-jammy
 
 ARG WAR_FILE=ROOT.war
 # Delete the existing ROOT directory
